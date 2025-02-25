@@ -1,0 +1,29 @@
+
+/* coin */
+.coin
+{
+    width: 8vw;
+    height: 8vw;
+    margin-top: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+    border-radius: 10;
+  
+}
+
+/* coin-image */
+.coin-image{
+width: 100px;
+height: 100px;
+background-color: transparent;
+}
+
+/* coin-text */
+.coin-text{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-style: dotted;
+}

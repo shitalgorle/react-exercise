@@ -1,0 +1,48 @@
+
+.profile-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; 
+    width: 300px;
+    height: 200PX;
+}
+.profile-div-gray{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 300px;
+    height: 200PX
+}
+.profile-div-pink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; 
+    width: 300px;
+    height: 200PX
+}
+.profile-image {
+    width: 50px; 
+    height: 50px; 
+    object-fit: cover;
+}
+.profile-div {
+ 
+    background-color: lightblue;
+}
+
+.profile-div-gray {
+    background-color: gray;
+}
+.profile-div-pink {
+    background-color: pink;
+}
+
+
+
+/* ******************* */
+
+

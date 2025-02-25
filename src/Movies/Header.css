@@ -1,0 +1,44 @@
+/* nav-bar */
+.nav-bar {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start ; 
+    align-items: center;
+    height: 60px; 
+    background-color: #232f3e;
+
+}
+
+/* header */
+.header{
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+   border-radius: 3%;
+    text-align: center;
+    background-color: #D98324;
+  }
+
+  /* header-logo */
+.header-logo{
+    height: 30px;
+    width: 70px;
+    background-color: #EB8317;
+    margin-left: 100px;
+    text-align: center;
+    font-size: large;
+    border-radius: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+
+/* button */
+button {
+    background-color: white;
+   
+  }

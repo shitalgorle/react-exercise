@@ -1,0 +1,677 @@
+// import logo from './logo.svg';
+// import './App.css';
+// import { Audio } from 'react-loader-spinner';
+
+// import PlayerOne from "./PlayerOne";
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//         <img src={logo} className="App-logo" alt="logo" />
+//         <p>
+//           Edit <code>src/App.js</code> and save to reload.
+//         </p>
+//         <a
+//           className="App-link"
+//           href="https://reactjs.org"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//         >
+//           Hello World
+//         </a>
+//         <Audio
+//   height="80"
+//   width="80"
+//   radius="9"
+//   color="green"
+//   ariaLabel="loading"
+//   wrapperStyle
+//   wrapperClass
+// />     
+//       </header>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+
+// *****************************************************************
+
+
+
+// // import logo from './logo.svg';
+// import './App.css';
+// import { Audio } from 'react-loader-spinner'
+// // import { RotatingSquare } from 'react-loader-spinner'
+// import { CAlert } from '@coreui/react'
+// import "mycomponent.css"
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//         <img src={logo} className="App-logo" alt="logo" />
+//         <p>
+//           Edit <code>src/App.js</code> and save to reload.
+//         </p>
+//         <a
+//           className="App-link"
+//           href="https://reactjs.org"
+//           target="_blank"
+//           rel="noopener noreferrer"
+          
+//         > hello</a>
+//         <button className='button'>click me</button>
+//         <Audio
+//           height="80"
+//           width="80"
+//           radius="9"
+//           color="green"
+//           ariaLabel="loading"
+//           wrapperStyle
+//           wrapperClass
+//         />
+
+// {/* <RotatingSquare
+//   visible={true}
+//   height="100"
+//   width="100"
+//   color="#4fa94d"
+//   ariaLabel="rotating-square-loading"
+//   wrapperStyle={{}}
+//   wrapperClass=""
+//   /> */}
+
+// <CAlert color="light">A simple light alert—check it out!</CAlert>
+
+//       </header>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+// ***********************************************************************************
+
+
+// import "./App.css";
+// import { Audio } from "react-loader-spinner";
+//  import MyComponent  from "./MyComponent";
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//       <MyComponent/>
+//       <MyComponent/>
+//         <Audio
+//           height="80"
+//           width="80"
+//           radius="9"
+//           color="green"
+//           ariaLabel="loading"
+//           wrapperStyle
+//           wrapperClass
+//         />
+//       </header>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+// *******************************************************************************
+
+
+// TEAM INDIA VS TEAM AUSTRALIA 11 PLAYERS
+
+
+// import "./App.css";
+// import { Audio } from "react-loader-spinner";
+//  import MyComponent  from "./MyComponent";
+
+// function App() {
+//   const styleOne = { backgroundColor : "lightyellow" , fontSize: "14px"};
+//   const styleTwo = { backgroundColor : "lightblue" , fontSize: "14px"};
+  
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//       <MyComponent teamName = {"INDIA"} buttonStyle={styleOne}/>
+//       <MyComponent teamName = {"AUSTRAILIA"} buttonStyle={styleTwo}/>
+//         <Audio
+//           height="80"
+//           width="80"
+//           radius="9"
+//           color="green"
+//           ariaLabel="loading"
+//           wrapperStyle
+//           wrapperClass
+//         />
+//       </header>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+// *************************************************************************
+
+
+
+
+
+// TABLES
+
+
+
+// import "./App.css";
+// import TableTwo from "./TableTwo";
+
+// function App() {
+  
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//      <TableTwo/>
+//       </header>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+// *******
+
+
+// import "./App.css";
+// import Table from "./Table";
+// import TableOf from "./TableOf";
+
+
+// function App() {
+  
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//      <Table/>
+//      <TableOf/>
+//       </header>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+// *********************************************************
+
+// players good
+
+// import React from "react";
+// import "./App.css";
+
+// import Player from "./Player.js";
+
+// function App() {
+//   return (
+//     <div className="App">
+    
+//   <Player/>
+   
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+
+// player best
+
+// import React from "react";
+// import "./App.css";
+
+
+// import PlayerOne from "./PlayerOne.js";
+
+// function App() {
+//   return (
+//     <div className="App">
+    
+//   <PlayerOne/>
+   
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+// ************************************************
+
+
+// actor good
+
+// import React from "react";
+// import "./App.css";
+
+// import ActorB from "./ActorB.js";
+
+// function App() {
+//   return (
+//     <div className="App">
+    
+//   <ActorB/>
+ 
+//     </div>
+//   );
+// }
+
+// export default App;
+
+// *************************************
+
+// 3 buttons
+
+// import React from "react";
+// import "./App.css";
+// import Counter from "./Counter";
+
+// function App() {
+
+//   return (
+//     <div className="App">
+   
+//       <Counter buttonColor={{backgroundColor:"green"}}/> 
+//       <Counter buttonColor={{backgroundColor:"lightcoral"}}/>
+//       <Counter buttonColor={{backgroundColor:"yellow"}}/>
+  
+//     </div>
+//   );
+// }
+// export default App;
+
+
+// ***********************************************************
+
+// HomePage
+
+// import React from 'react';
+// import "./App.css";
+// import ProfileImage, {ProfileImageFour , ProfileImageThree, ProfileImageTwo,ProfileImageOne,} from "./HomePage";
+// import {  BoxTwo } from './Amazon';
+// import BoxOne from './AmazonOne';
+// import { Header } from './Amazon/Header';
+// import Cart from './Amazon/Cart'
+// import Pannel from './Amazon/Panel';
+// import Panel from './Amazon/Panel'
+
+
+
+// function App() {
+//   return (
+//     <div className="App">
+    
+//       {/* //  <ProfileImageFour/>
+//       //  <ProfileImageThree/>
+//       //  <ProfileImageTwo/>
+//       //  <ProfileImageOne/>
+//       //  <ProfileImage/> */}
+      
+//        {/* <BoxTwo/> */}
+//        {/* <BoxOne/> */}
+//        <Header/>
+  
+//       <Panel/>
+     
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+// /***************** */
+
+
+// profileimage
+
+// import React from "react";
+// import "./App.css";
+// import ProfileImage, { ProfileImageThree, ProfileImageTwo } from "./ProfileImage";
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <ProfileImageThree/>
+//       <ProfileImageTwo/>
+//       <ProfileImage/>
+  
+//     </div>
+//   );
+// }
+// export default App;
+
+// *********************
+ 
+// or
+
+// import React from "react";
+// import "./App.css";
+// import { ProfileImageGray } from "./profile/ProfileImageGray";
+// import { ProfileImagePink } from "./profile/ProfileImagePink";
+
+
+// function App() {
+
+//   return (
+//     <div className="App">
+
+//   <ProfileImageOne/>
+//   <ProfileImageGray/>
+//   <ProfileImagePink/>
+//     </div>
+//   );
+// }
+// export default App;
+
+
+// *************************
+
+//  PROFILE THREE DIFFRENT FILE
+
+// import React from "react";
+// import "./App.css";
+// import { 
+//   ProfileImageGray,
+//   ProfileImageOne,
+//   ProfileImagePink,
+//   }  
+//   from "./profile";
+   
+// function App() {
+//   return (
+//     <div className="App">
+//       <ProfileImageGray/>
+//       <ProfileImageOne/>
+//       <ProfileImagePink/>
+  
+//     </div>
+//   );
+// }
+// export default App;
+
+
+// IMAGE
+
+// import React from "react";
+// import "./App.css";
+
+// import ImageO from "./ImageO";
+
+// function App() {
+//   return (
+//     <div className="App">
+    
+//    <ImageO/>
+    
+//     </div>
+//   );
+// }
+// export default App;
+
+// ***************************
+
+// EXERCISEONE  EXERCISETWO EXERCISETHREE
+
+
+// import React from "react";
+// import "./App.css";
+// import ExerciseOne from "./ExerciseOne";
+// import ExerciseTwo from "./ExerciseTwo";
+// import ExerciseThree from "./ExerciseThree";
+
+// function App() {
+//   return (
+//     <div className="App">
+    
+//    <ExerciseOne/>
+ 
+    
+//     </div>
+//   );
+// }
+// export default App;
+
+
+// **************
+
+// import React from "react";
+// import "./App.css";
+
+// import ExerciseTwo from "./ExerciseTwo";
+// import ExerciseThree from "./ExerciseThree";
+// import ExerciseFour from "./ExerciseFour";
+// import BulbEx from "./BulbEx";
+// import BulbTwo from "./BulbTwo";
+// import TemperatureConverter from "./Temperature";
+// import Layout from "./Layout";
+// import BulbNew from "./BulbNew"
+
+
+// function App() {
+//   return (
+//     <div className="App">
+// {/*     
+//    <ExerciseTwo/> */}
+//    {/* <ExerciseThree/> */}
+//    {/* <ExerciseFour/> */}
+//    <BulbEx/>
+//    {/* <BulbTwo/> */}
+//    {/* <Layout/> */}
+//    {/* <TemperatureConverter/> */}
+//     {/* <OneT/> */}
+//     {/* <BulbNew/> */}
+   
+    
+//     </div>
+//   );
+// }
+// export default App;
+
+
+// ********************************************
+
+
+// import React from 'react';
+// import "./App.css";
+// import { Header } from './Amazon/Header';
+// import PanelOne from './Amazon/PanelOne'
+
+// function App() {
+//   return (
+//     <div className="App">
+//        <Header/>
+//        <PanelOne/>
+   
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+// ***********************************************
+
+
+// import React, { useState } from "react";
+// import "./App.css";
+// import { Header } from './Amazon/Header';
+// import Panel from './Amazon/Panel';
+// import PanelOne from './Amazon/PanelOne'
+
+// function App() {
+//   const [counter, setCounter] = useState(0);
+
+//   const addToCart = () => {
+//     setCounter(counter + 1);
+//   };
+
+
+
+//   return (
+//     <div className="App">
+//       <Header counter={counter}/>
+//       {/* <Panel addToCart={addToCart}/> */}
+//       <PanelOne addToCart={addToCart} />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+// ***************************************
+
+// import React from "react";
+// import "./App.css";
+// import { Header } from './Amazon/Header';
+// import PanelOne from './Amazon/PanelOne';
+// import { products } from './AmazonTwo/Data';
+
+// export default class App extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       products: products, 
+//       CartArray: [],
+//     };
+//   }
+
+//   addTocard = (item) => {
+//     console.log("addToCard", item);
+//     this.setState((prevState) => ({
+//       CartArray: [...prevState.CartArray, item]
+//     }));
+//   };
+
+//   removefromCart = (indexToRemove) => {
+//     this.setState((prevState) => {
+//       const updatedCart = [...prevState.CartArray];
+//       updatedCart.splice(indexToRemove, 1);
+//       return { CartArray: updatedCart };
+//     });
+//   };
+
+//   render() {
+//     return (
+//       <div>
+//         <Header />
+//         <PanelOne 
+//           products={this.state.products} 
+//           addTocard={this.addTocard}
+//         />
+//       </div>
+//     );
+//   }
+// }
+
+
+*********************
+// import React, { Component } from "react";
+// import "./App.css";
+// import { Header } from "./Amazon/Header";
+// import Panel from "./Amazon/Panel";
+// import { products } from "./Amazon/Data";
+
+// export default class App extends Component {
+
+//   constructor(props){
+//     super(props)
+//     this.state ={
+//       productArray: products
+//     }
+//   }
+//   render() {
+//     return (
+//       <div>
+//         <Header />
+//         <Panel products={this.state.productArray} /> 
+//       </div>
+//     );
+//   }
+
+
+
+
+
+
+*************
+
+
+// exercise     AMAZONF
+
+// import React, { Component } from "react";
+// import "./App.css";
+// import Header from "./AmazonF/Header";
+// import Panel from "./AmazonF/Panel";
+// import { products } from "./Amazon/Data";
+
+// export default class Amazon extends Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       products: products,
+//       cartArray: []
+//     };
+//   }
+
+//   addToCart = (data) => {
+//     this.setState((prevState) => ({
+//       cartArray: [...prevState.cartArray, data]
+//     }));
+//   };
+
+//   render() {
+//     return (
+//       <div className="App">
+//         <Header cartCount={this.state.cartArray.length} />
+//         <Panel data={this.state.products} addToCart={this.addToCart} />
+//       </div>
+//     );
+//   }
+// }
+
+
+
+// import React, { Component } from "react";
+// import "./App.css";
+// import Header from "./AmazonF/Header";
+// import Panel from "./AmazonF/Panel";
+
+// export default class App extends Component {
+  
+  
+//   render() {
+//     return (
+//       <div>
+//         <Header />
+//         <Panel/>
+       
+//       </div>
+//     );
+//   }
+// }

@@ -1,0 +1,17 @@
+.ImageO{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 300px;
+    height: 200PX
+}
+.profile-image {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover;
+}
+.profile-div-gray {
+    background-color: gray;
+}

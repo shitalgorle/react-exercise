@@ -1,0 +1,40 @@
+
+
+/*panel-container  */
+.panel-container{
+    height: 1200px;
+    width: 95%;
+    border-style: solid;
+    margin-top: 30px;
+    margin-left: 30px;
+    /* background-color:lightgray; */
+    background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-green-halo-gradual-movie-film-background-picture-image_1354231.jpg");
+    background-size: cover;
+   
+}
+
+/* h1 */
+h1{
+  text-align: center;
+}
+
+/* movie-list */
+.movie-list{
+    height: 600px;
+}
+
+
+/* movie-poster */
+.movie-poster{
+    width: 150px;
+    height: 150px; 
+
+  }
+
+  /* movie-info */
+  .movie-info{
+    width:auto;
+    height: 100px; 
+  }
+  
+  

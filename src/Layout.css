@@ -1,0 +1,24 @@
+/* Container styles */
+.container {
+    height: 100vh;
+    width: 100vw;
+   background-image: url(./assets/back2.jpg);
+   background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Box styles */
+.box {
+    height: 20%;
+    width: 20%;
+    margin: 20px;
+    background-color:palevioletred;
+}
+
+
+
+

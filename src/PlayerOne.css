@@ -1,0 +1,30 @@
+.team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 90px;
+   
+}
+
+.playersOne{
+    height: 90vh;
+   
+    /* background-color: lightgrey; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+.playersTwo{
+    height: 90vh;
+    /* background-color:lightblue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+

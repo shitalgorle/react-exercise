@@ -1,0 +1,37 @@
+/* coin */
+.coin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border-style: solid;
+   
+  }
+  
+  /* coin-image */
+  .coin-image {
+    width: 80px;
+    height: 80px;
+  }
+  
+  /*coin-label   */
+  .coin-label {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  /* coin-badge  */
+  .coin-badge {
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+    background-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 12px;
+  }
+  

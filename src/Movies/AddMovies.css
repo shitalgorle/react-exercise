@@ -1,0 +1,13 @@
+
+/* movies */
+.movies{
+    height: 30px;
+    width: 70px;
+    background-color: white;
+    margin-left: 300px;
+}
+/* button */
+ button{
+    background-color: #EB8317;
+    margin-right: 200px;
+ }

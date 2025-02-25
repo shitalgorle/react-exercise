@@ -1,0 +1,46 @@
+
+/* home-main-container */
+
+.home-main-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+
+  /* title */
+  .title {
+    color: #ff007f;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+
+  /*  projects-container*/
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+
+  /* project-box */
+  .project-box {
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+ 
+  }
+
+  /* project-content */
+  .project-content {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    /* height: 700px; */
+  }
+  
