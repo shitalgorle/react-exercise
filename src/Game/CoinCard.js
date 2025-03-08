@@ -6,7 +6,7 @@ export default class CoinCard extends React.Component {
   render() {
     return (
       <div 
-        className="coin"
+        className="coin-container"
         onClick={() => {
           this.props.onCoinClick(this.props.coinText);
           this.props.incrementCounter(this.props.coinText);

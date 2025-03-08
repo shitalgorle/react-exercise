@@ -7,18 +7,18 @@
     background-color: #f4f4f4;
     min-height: 100vh;
   }
-  
+
 
   /* title */
-  .title {
+ .title {
     color: #ff007f;
     font-size: 40px;
     margin-bottom: 20px;
-  }
+  } 
   
 
   /*  projects-container*/
-  .projects-container {
+   .projects-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -27,20 +27,118 @@
   
 
   /* project-box */
-  .project-box {
+ .project-box {
     background-color: #fff;
     padding: 15px 25px;
     border-radius: 8px;
     font-size: 18px;
     font-weight: bold;
  
-  }
+  } 
 
+  /* project-box:hover */
+.project-box:hover {
+   background-color: #E82561;  
+   
+ } 
   /* project-content */
-  .project-content {
+   .project-content {
     margin-top: 30px;
     padding: 20px;
     background-color: white;
-    /* height: 700px; */
+   
+  } 
+  
+
+
+
+
+  /* home-main-container */
+/* .home-main-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+title
+.title {
+  color: #ff007f;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+projects-container
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+}
+
+project-box
+.project-box {
+  background-color: #fff;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* project-box:hover */
+/* .project-box:hover {
+  background-color: #E82561; /* Change background on hover */
+  /* color: #fff;
+} */ 
+
+/* project-content
+.project-content {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: white;
+} */
+
+/* Responsive Design */ 
+/* @media (max-width: 1024px) {
+  .title {
+      font-size: 35px;
   }
   
+  .project-box {
+      font-size: 16px;
+      padding: 12px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+      font-size: 30px;
+  }
+  
+  .projects-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .project-box {
+      width: 80%;
+      text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+      font-size: 24px;
+  }
+  
+  .project-box {
+      width: 100%;
+      padding: 10px 15px;
+  }
+
+  .project-content {
+      padding: 15px;
+  }
+} */

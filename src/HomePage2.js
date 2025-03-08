@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 import "./HomePage2.css";
 import Dashboard from "./Game/Dashboard";
-import ActorB from "./Actor/ActorB";
+import Actor from "./Actor/Actor"
 import BulbTwo from "./Bulb/BulbTwo";
-import ExerciseFour from "./Fruit/ExerciseFour";
+import Fruit from "./Fruit/Fruit"
 import Imdb from "./Movies/ImDb";
+import TableTwo from "./TableTwo";
+import Amazon from "./Amazon/Amazon"
+
 
 
 
@@ -13,11 +16,15 @@ export default class HomePage extends Component {
     super(props);
     this.state = {
       projects: [
-        { name: "ImDb", component: <Imdb /> },
+       
         { name: "Dashboard", component: <Dashboard /> },
-        { name: "ActorB", component: <ActorB /> },
+        { name: "Actor", component: <Actor/> },
         { name: "BulbTwo", component: <BulbTwo /> },
-        { name: "ExerciseFour", component: <ExerciseFour /> },
+        { name: "Fruit", component: <Fruit /> },
+        { name: "ImDb", component: <Imdb /> },
+        { name: "TableTwo", component: <TableTwo/> },
+        { name: "Amazon", component: <Amazon/> },
+       
       
        
       ],

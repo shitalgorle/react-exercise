@@ -1,40 +1,71 @@
 
-
-/*panel-container  */
-.panel-container{
-    height: 1200px;
-    width: 95%;
-    border-style: solid;
-    margin-top: 30px;
-    margin-left: 30px;
-    /* background-color:lightgray; */
-    background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-green-halo-gradual-movie-film-background-picture-image_1354231.jpg");
-    background-size: cover;
-   
+  /* Panel Container */
+.panel-container {
+  width: 95vw;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* h1 */
-h1{
+/* No Movie Text */
+.no-movie-text {
   text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: gray;
 }
 
-/* movie-list */
-.movie-list{
-    height: 600px;
+/* Movie List */
+.movie-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+  list-style-type: none;
 }
 
+/* Movie Item (Each Movie Block) */
+.movie-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
 
-/* movie-poster */
-.movie-poster{
-    width: 150px;
-    height: 150px; 
+/* Movie Poster */
+.movie-poster {
+  width: 150px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
 
+/* Movie Info */
+.movie-info {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .panel-container {
+      width: 95vw;
   }
 
-  /* movie-info */
-  .movie-info{
-    width:auto;
-    height: 100px; 
+  .movie-item {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
   }
-  
-  
+
+  .movie-poster {
+      width: 100px;
+      height: 150px;
+  }
+}

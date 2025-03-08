@@ -1,27 +1,35 @@
-/* container */
-.container {
-    display: flex; 
-    align-items: center;  
-    gap: 2px; 
-    
+/* movie-container */
+.movie-container {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 50px;  */
+    flex-wrap: wrap; 
+    padding: 10px;
 }
 
-/* dd-button  */
+/* add-button */
 .add-button {
     background-color: #EB8317;
-    height: 40px;
-    width: 70px;
-    border-style: solid;
+    height: 30px;
+    width: 100px; 
+    border: solid 2px #000;
     font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    /* margin-left: 100px; */
+   
 }
 
-/* rating */
+/* rating  */
 .rating {
-    height: 25px;
+    height: 30px;
     width: 200px;
     
-   
-    
 }
+
+
 
 

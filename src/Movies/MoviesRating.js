@@ -18,8 +18,9 @@ export default class MoviesRating extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="movie-container">
         <button className="add-button">Rate {this.state.rating}</button>
+        
         <div className="rating">
           <Rating onClick={this.handleRating} ratingValue={this.state.rating} />
         </div>
@@ -27,3 +28,6 @@ export default class MoviesRating extends React.Component {
     );
   }
 }
+
+
+

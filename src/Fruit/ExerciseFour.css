@@ -1,4 +1,4 @@
-.main-container{
+.fruit-container{
   height:100vh ;
   width: 100vw;
   background-image: url(../assets/back2.jpg);
@@ -13,13 +13,14 @@
   display: flex;
   flex-direction:column;
   justify-content:center;
+  border-style: solid;
+  border-radius: 2%;
   /* background-color: white; */
   /* border: solid; */
 }
 h1{
   font-size:30px;
   color: black;
-  margin-left: 50px;
   text-align: center;
 }
 h2{

@@ -1,5 +1,5 @@
 /* nav-bar */
-.nav-bar {
+/* .nav-bar {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -9,10 +9,10 @@
     height: 60px; 
     background-color: #232f3e;
 
-}
+} */
 
 /* header */
-.header{
+/* .header{
     height: 30px;
     width: 100px;
     color: white;
@@ -21,10 +21,10 @@
    border-radius: 3%;
     text-align: center;
     background-color: #D98324;
-  }
+  } */
 
   /* header-logo */
-.header-logo{
+/* .header-logo{
     height: 30px;
     width: 70px;
     background-color: #EB8317;
@@ -34,11 +34,111 @@
     border-radius: 2px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   
-}
+} */
 
 
 /* button */
-button {
+/* button {
+    background-color: white;
+   
+  } */
+
+
+
+
+  /* Navigation Bar */
+  /* .nav-bar {
+    width:90vw;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    height: 60px; 
+    background-color: #232f3e;
+}
+  
+  .header-logo {
+    color: white;
+    
+    font-size: 35px;
+    font-weight: bold;
+    /* margin-right:300px; */
+  
+  /* } */
+  
+  /* button {
     background-color: white;
    
   }
+.nav-bar img {
+    margin-left: 200px;
+    border-radius: 5px;
+    background-color: white;
+    height: 50px;
+    width: 60px;
+   
+  } */
+
+
+
+
+  /* Navigation Bar */
+.nav-bar {
+  width: 83vw;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 5%;
+  background-color: #232f3e;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.header-logo {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* Button */
+button {
+  background-color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Logo Image */
+.nav-bar img {
+  margin-left: auto; 
+  border-radius: 5px;
+  background-color: white;
+  height: 40px;
+  width: 50px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .nav-bar {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .header-logo {
+      font-size: 24px;
+      margin-bottom: 10px;
+  }
+
+  .nav-bar img {
+      margin: 10px 0;
+      height: 35px;
+      width: 45px;
+  }
+
+  button {
+      font-size: 14px;
+      padding: 6px 12px;
+  }
+}

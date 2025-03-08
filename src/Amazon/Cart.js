@@ -1,19 +1,26 @@
 
+import React from 'react';
+import './Cart.css';
+import cartlogo from '../assets/cart.png'
 
-import React from "react";
-import "./Amazon.css";
+class Cart extends React.Component {
+    render() {
+        return (
+            <div className="cart" onClick={this.props.toggleCart}>
+               
+                <img className='cart-logo' src={cartlogo} />
+                
 
-export default class Cart extends React.Component {
-  render() {
-    return (
-      <header>
-        <div className="nav-bar">
-        <p>
-          <img src="./remove.png" alt="Cart" width={"50px"}/>
-            {this.props.counter}
-          </p>
-        </div>
-      </header>
-    );
-  }
+{this.props.cartItems.length > 0 && (
+                    <span className="cart-count" style={{color:"white"}}>{this.props.cartItems.length}</span>
+                
+                )}
+                
+                
+            </div>
+
+        );
+    };
 }
+export default Cart;
+

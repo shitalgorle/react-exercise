@@ -1,9 +1,10 @@
-.table{
+/* .table{
     display: flex;
     flex-direction: column;
     background-color: gray;
     width: 60vw;
     height: 80vh;
+    margin-left: 250px;
 }
 
 .row{
@@ -13,6 +14,7 @@
     justify-content: center;
     gap: 20px;
     margin-top: 10px;
+   
 }
 
 .cell-button{
@@ -23,4 +25,78 @@
     font-size: 20px;
     columns: black;
     font-weight: bold;
+} */
+
+
+
+.table {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    width: 90%; /* Adjust width for better responsiveness */
+    max-width: 800px; /* Prevents table from being too wide */
+    height: auto; /* Allow it to grow dynamically */
+    padding: 10px;
+    margin: 0 auto; /* Centers it horizontally */
+    border-radius: 8px;
+    overflow: hidden; /* Prevents overflow issues */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap; /* Ensures elements wrap on small screens */
+}
+
+.cell-button {
+    width: 8vw; /* Uses relative width */
+    max-width: 80px; /* Prevents it from being too large */
+    height: 8vh;
+    max-height: 50px;
+    min-width: 40px;
+    min-height: 30px;
+    font-size: 1rem; /* Makes text responsive */
+    border-radius: 5px;
+}
+
+.multi {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Media Queries for Small Screens */
+@media (max-width: 768px) {
+    .table {
+        width: 95%; /* Increases width on small screens */
+    }
+    .row {
+        gap: 5px; /* Reduces gap */
+    }
+    .cell-button {
+        width: 10vw; /* Adjusts for better visibility */
+        height: 6vh;
+        font-size: 0.9rem;
+    }
+}
+
+/* Media Queries for Extra Small Screens */
+@media (max-width: 480px) {
+    .table {
+        width: 100%;
+        padding: 5px;
+    }
+    .cell-button {
+        width: 12vw;
+        height: 5vh;
+        font-size: 0.8rem;
+    }
+    .multi {
+        font-size: 1rem;
+    }
 }

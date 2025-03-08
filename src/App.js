@@ -37,7 +37,6 @@
 
 // import React from "react";
 // import "./App.css";
-
 // import ImDb from "./Movies/ImDb";
 
 // export default class App extends React.Component {
@@ -46,7 +45,6 @@
 //     return (
 //       <div> 
 //    <ImDb/>
-
 //       </div>
 //     );
 //   }
@@ -57,20 +55,24 @@
 
 import React, { Component } from "react";
 import "./App.css";
+import PlayerOne from "./PlayerOne";
+
+// import Amazon from "./Amazon/Amazon";
+// import Actor from "./Actor/Actor"
  
 import HomePage2 from "./HomePage2"
-
-
 export default class App extends Component {
   render() {
     return (
       <div>
     
      <HomePage2/>
-  
+     {/* <Amazon/> */}
+     {/* <Actor/> */}
+     
    
 
-    
+  
       </div>
     );
   }

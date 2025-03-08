@@ -19,7 +19,7 @@ export default function ExerciseFour (){
     };
 
     return(
-        <div className="main-container">
+        <div className="fruit-container">
         <div className="container">
             <h1>Select a Fruit</h1>
 

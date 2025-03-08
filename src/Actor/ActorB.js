@@ -68,7 +68,7 @@ class ActorB extends React.Component {
               "Salman Khan"
             )}
             {this.button(
-              "https://images.javatpoint.com/biography/images/sidharth-malhotra.png",
+              "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/685933_v9_ba.jpg",
               "Sidharth Malhotra"
             )}
             {this.button(

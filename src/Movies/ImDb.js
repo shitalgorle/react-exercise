@@ -27,7 +27,7 @@ export default class Imdb extends React.Component {
     };
     render() {
         return (
-            <div className="app">
+            <div className="app-two">
                 <Header openForm = {this.openForm} />
                 {this.state.showForm? (
                       <Form addMovie={this.addMovies} />

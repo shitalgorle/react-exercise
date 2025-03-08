@@ -31,7 +31,7 @@ export default class Dashboard extends React.Component {
 
   render() {
     return (
-      <div className="app"> 
+      <div className="app-one"> 
         <div className="counter-text">{this.state.total}</div>
         <PanelOne onCoinClick={this.onCoinClick} />
       </div>

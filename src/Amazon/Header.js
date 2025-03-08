@@ -1,24 +1,24 @@
+import './Header.css';
+import Cart from '../Amazon/Cart';
+import React from 'react';
 
-import React from "react";
-import "./Amazon.css";
-import Cart from "./Cart";
+import amazonLogo from '../assets/amazonlogo.jpg'
 
-
-export class Header extends React.Component {
-  render() {
+class Header extends React.Component {
+    render(){
     return (
-      <header>
-        <div className="nav-bar">
-          <div className="header-logo">Amazon</div>
-          <button style={{ width: "350px", height: "50px", backgroundColor: ":#febd69"}}>
-            <a style={{ color: "black" }}>Search</a>
-          </button>
-          <Cart counter={this.props.counter} />
+        <header>
+        <div className="header">
         
+            <img className='amazon-logo' src={amazonLogo}/>
+           
+                   <input type="text" className="input" placeholder="Search" />
+                
+            <Cart cartItems={this.props.cartArray} toggleCart={this.props.toggleCart} />
         </div>
-      </header>
+        <h1 style={{textAlign:"center"}}>CPU Component</h1>
+        </header>
     );
-  }
+};
 }
-
 export default Header;
